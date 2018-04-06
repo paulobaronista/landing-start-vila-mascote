@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+body { font-family: "Arial", Helvetica, sans-serif; font-size: 10px;}
+ 
+#topo {
+ width: 100%;
+ float: left;
+ position: relative;
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a5a5a5+0,252525+100&0+0,1+52 */
+ background: -moz-linear-gradient(top, rgba(165,165,165,0) 0%, rgba(98,98,98,1) 52%, rgba(37,37,37,1) 100%); /* FF3.6+ */
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(165,165,165,0)), color-stop(52%,rgba(98,98,98,1)), color-stop(100%,rgba(37,37,37,1))); /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(top, rgba(165,165,165,0) 0%,rgba(98,98,98,1) 52%,rgba(37,37,37,1) 100%); /* Chrome10+,Safari5.1+ */
+ background: -o-linear-gradient(top, rgba(165,165,165,0) 0%,rgba(98,98,98,1) 52%,rgba(37,37,37,1) 100%); /* Opera 11.10+ */
+ background: -ms-linear-gradient(top, rgba(165,165,165,0) 0%,rgba(98,98,98,1) 52%,rgba(37,37,37,1) 100%); /* IE10+ */
+ background: linear-gradient(to bottom, rgba(165,165,165,0) 0%,rgba(98,98,98,1) 52%,rgba(37,37,37,1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a5a5a5', endColorstr='#252525',GradientType=0 ); /* IE6-9 */
+}
+
+#box-topo {
+ width: 960px;
+ height: 1928px;
+ position: relative;
+ float: left;
+ left: 50%;
+ margin-left: -480px;
+ background:url(../imagens/base.jpg) no-repeat;
+}
+#box_form {
+ width: 350px;
+ height: 470px;
+ position: absolute;
+ right: 0;
+ float: right;
+ margin-top: 420px;
+ margin-right: 60px;
+ padding-top: 5px;
+ border: solid 2px #f04f3b;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+}
+form input {
+ width: 313px;
+ height: 45px;
+ border: solid 1px #007f8f;
+ padding: 0 2px 0 4px;
+ margin: 0 0 10px 12px;
+ font-family: "Arial", Helvetica, sans-serif;
+ color: #000;
+ font-size: 16px;
+}
+form textarea {
+ width: 308px;
+ height: 110px;
+ border: solid 1px #007f8f;
+ padding: 5px;
+ font-family: "Arial", Helvetica, sans-serif;
+ margin: 0 0 10px 12px;
+ color: #000;
+ font-family: "Arial", Helvetica, sans-serif;
+ font-size: 16px;
+}
+form label {
+ font-size: 14px;
+ font-family: "Arial", Helvetica, sans-serif;
+ text-transform: uppercase;
+ padding: 5px 0 2px 0;
+ float: left;
+ margin-left: 12px;
+ letter-spacing: 1px;
+ color: #FFF;
+ font-weight: bold;
+}
+.statusNome {
+ margin-top: 5px;
+}
+small {
+ float: left;
+ padding: 0 0 0 15px;
+ margin: -5px 0 0 0;
+ width: 80%;
+ color: #FFF;
+ font-weight: bold;
+}
+.enviar {
+ width: 90%;
+ background-color: #f04f3b;
+ font-family: "Arial", Helvetica, sans-serif;
+ padding: 12px 0 12px 0;
+ margin: 10px 5% 0 5%;
+ text-align: center;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ font-size: 19px;
+ text-decoration: none;
+ color: #FFF;
+ float: left;
+ border: none;
+}
+.enviar:hover {
+ background-color: #dd4330;
+}
+.txt-obrigado {
+ text-align: center;
+ font-size: 25px;
+ color: #FFF;
+ line-height: 30px;
+ padding-left: 1%;
+ padding-right: 1%;
+ text-transform: uppercase;
+ padding-top: 150px !important;
+}
+::-webkit-input-placeholder { color: inherit;} /*Atributo para o Chrome colocar cor dentro do input*/
+
+/* Hack ie10 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { 
+
+   
+}
